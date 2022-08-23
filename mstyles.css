@@ -54,6 +54,9 @@ span {
     height: 25px;
     width: 264px;
     opacity: 0.6;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 25px;
     font-family: 'Lexend Deca', monospace;
     margin-top: 2px;
     text-align: center;
