@@ -4,13 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="dstyles.css">
+    <link rel="stylesheet" href="rstyles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Lexend+Deca:wght@200&display=swap" rel="stylesheet">
-    <title>Desktop Version</title>
+    <title>Responsive Version</title>
 </head>
 <body>
     <div class="card">
-        <div class="left">
+        <picture>
+            <source srcset="/images/stats-preview-card-desktop.jpg"
+                    media="(min-width: 1200px)">
+            <img src="/images/stats-preview-card-mobile.jpg" alt="" />
+        </picture>
+        <div class="container">
             <h1>Get <span>insights</span> that help your business grow.</h1>
             <p class="sub">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
             <div class="subcard">
@@ -27,9 +32,6 @@
                     <p class="text">QUERIES</p>
                 </div>
             </div>
-        </div>
-        <div class="right">
-            <img src="/images/stats-preview-card-desktop.jpg" alt="">
         </div>
     </div>
 </body>
